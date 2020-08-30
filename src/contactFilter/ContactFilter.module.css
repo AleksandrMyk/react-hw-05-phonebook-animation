@@ -1,0 +1,39 @@
+.filterForm {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.filterInput {
+  width: 400px;
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: 700;
+  border: 2px solid black;
+  height: 30px;
+  border-radius: 5px;
+}
+.filterInput:focus {
+  outline: none;
+  box-shadow: inset 0 1px 3px 1px rgba(0, 0, 0, 0.5),
+    inset 0 0 0 60px rgba(0, 0, 0, 0), 0 1px rgba(255, 255, 255, 0.08);
+  transition: all 700ms linear;
+}
+.filterLabel {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/*--animation input---------------------------*/
+.appearDone {
+  box-shadow: inset 0 2px 10px 1px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 60px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.08);
+  transition: all 700ms linear;
+}

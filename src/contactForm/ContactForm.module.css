@@ -1,0 +1,62 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.contactInput {
+  width: 400px;
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: 700;
+  border: 2px solid black;
+  height: 30px;
+  border-radius: 5px;
+}
+.contactInput:focus {
+  outline: none;
+  box-shadow: inset 0 1px 3px 1px rgba(0, 0, 0, 0.5),
+    inset 0 0 0 60px rgba(0, 0, 0, 0), 0 1px rgba(255, 255, 255, 0.08);
+  transition: all 700ms linear;
+}
+.labelForm {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.btnAdd {
+  display: inline-block;
+  padding: 5px 15px;
+  width: 400px;
+  height: auto;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+  transition: all 0.15s;
+}
+.btnAdd:hover {
+  color: #000000;
+  background-color: rgb(88, 255, 96);
+}
+
+/*--animation input---------------------------*/
+
+.appearDone {
+  box-shadow: inset 0 2px 10px 1px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 60px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.08);
+  transition: all 700ms linear;
+}
