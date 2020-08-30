@@ -10,6 +10,7 @@
   border: 1px solid black;
   border-radius: 5px;
   color: #3a3a3a;
+  position: relative;
 }
 
 .mainTitle {
@@ -29,4 +30,3 @@
   color: rgb(96, 99, 255);
   transition: color 700ms linear;
 }
-
